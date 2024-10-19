@@ -29,4 +29,12 @@ pip install requests beautifulsoup4 lxml
 
 - Open the script in a text editor and update the URL variable with the  Amazon product page URL you want to scrape.
 
-- Run the script in your terminal or command prompt:
+- Run the Jupiter Notebook
+
+- The script will scrape the product information and save it to a CSV file(amazon_product_data.csv)
+
+
+### Key Components of the code
+- User-Agent: Mimics a real browser to avoid getting blocked by Amazon’s anti-bot measures.
+- BeautifulSoup: Parses the HTML content to extract product details.
+- CSV File: Saves the scraped data in a CSV file (out.csv).
