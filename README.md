@@ -22,7 +22,7 @@ You can install the required libraries by running:
 
 ```bash
 pip install requests beautifulsoup4 lxml
-
+```
 ### Usage
 
 - Clone this repository or download the script.
